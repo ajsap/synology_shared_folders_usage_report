@@ -4,7 +4,7 @@ Welcome to the **Synology Shared Folders Usage Report** script! This tool is des
 
 ## Features
 
-- **Supports Single and Multiple Volumes**: Choose between versions for single volume (v1.0) or multiple volumes (v2.0) based on your needs.
+- **Supports Single and Multiple Volumes**: Choose between versions for single volume or multiple volumes based on your needs.
 - **Detailed Reporting**: Provides per-folder and per-volume usage statistics with clear subtotals and grand totals.
 - **System Statistics**: Includes vital system information such as uptime, memory usage, CPU load, and the top processes by CPU usage.
 - **Customisable**: Exclude specific folders or directories from the report as needed.
