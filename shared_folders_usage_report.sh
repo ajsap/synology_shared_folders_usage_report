@@ -1,7 +1,7 @@
 #!/bin/bash
 #==================================================================================
-# Script Name: shared_folder_usage_report.sh
-# Version: 1.0
+# Script Name: shared_folders_usage_report.sh
+# Version: 1.1
 # Author: Andy Saputra
 # License: MIT License
 # Link: https://github.com/ajsap/synology_shared_folders_usage_report/
@@ -60,7 +60,7 @@ TOTAL_USAGE=0
 
 # Start the report
 echo "=========================================================="
-echo "              Shared Folder Usage Report"
+echo "           Synology Shared Folders Usage Report"
 echo "                  $(date)"
 echo "=========================================================="
 echo ""
