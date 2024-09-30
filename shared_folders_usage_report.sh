@@ -55,7 +55,7 @@ SHARED_FOLDER_BASE="/volume1"
 # Get list of shared folders
 SHARE_LIST=$($LS_CMD -1 "$SHARED_FOLDER_BASE")
 
-# Initialize total usage
+# Initialise total usage
 TOTAL_USAGE=0
 
 # Start the report
@@ -123,9 +123,9 @@ echo "-----------------"
 $UPTIME_CMD | $AWK_CMD -F'load average:' '{ print $2 }'
 echo ""
 
-# Top 5 Processes by CPU Usage
-echo "Top 5 Processes by CPU Usage:"
-echo "-----------------------------"
+# Top 10 Processes by CPU Usage
+echo "Top 10 Processes by CPU Usage:"
+echo "------------------------------"
 $TOP_CMD -b -n1 | head -n17 | tail -n15
 echo ""
 
