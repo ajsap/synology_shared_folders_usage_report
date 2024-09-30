@@ -37,7 +37,7 @@ Welcome to the **Synology Shared Folders Usage Report** script! This tool is des
 4. **Configure the Task**
 
    - **General Settings**:
-     - **Task Name**: `shared_folder_usage_report`
+     - **Task Name**: `shared_folders_usage_report`
      - **User**: Select `root` from the dropdown menu.
 
    - **Schedule Settings**:
@@ -47,7 +47,7 @@ Welcome to the **Synology Shared Folders Usage Report** script! This tool is des
    - **Task Settings**:
      - **User-defined script**:
        ```bash
-       bash /volume1/Scripts/shared_folder_usage_report.sh
+       bash /volume1/Scripts/shared_folders_usage_report.sh
        ```
        *(Adjust the path to the script if necessary.)*
 
@@ -61,7 +61,7 @@ Welcome to the **Synology Shared Folders Usage Report** script! This tool is des
    - Open **Terminal** or **SSH** into your Synology NAS.
    - Run the script:
      ```bash
-     bash /volume1/Scripts/shared_folder_usage_report.sh
+     bash /volume1/Scripts/shared_folders_usage_report.sh
      ```
      *(Adjust the path if necessary.)*
    - Verify that the output meets your expectations.
