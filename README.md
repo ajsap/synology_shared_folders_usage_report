@@ -16,7 +16,6 @@ Welcome to the **Synology Shared Folders Usage Report** script! This tool is des
 ### Prerequisites
 
 - Tested on a Synology NAS running DSM version 7.2.2.
-- Basic knowledge of command-line operations.
 - User account with sufficient permissions to execute scripts and access shared folders.
 - Set up Synology Email notifications from the DSM Control Panel -> Notification -> Email -> Sender.
 
