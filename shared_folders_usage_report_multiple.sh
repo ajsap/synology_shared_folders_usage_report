@@ -68,7 +68,7 @@ SHARED_FOLDER_BASE=(
 /volume5
 )
 
-# Initialize total usage
+# Initialise total usage
 TOTAL_USAGE=0
 
 # Start the report
@@ -161,8 +161,8 @@ echo "-----------------"
 $UPTIME_CMD | $AWK_CMD -F'load average:' '{ print $2 }' | $SED_CMD 's/^ //'
 echo ""
 
-# Top 15 Processes by CPU Usage
-echo "Top 15 Processes by CPU Usage:"
+# Top 10 Processes by CPU Usage
+echo "Top 10 Processes by CPU Usage:"
 echo "------------------------------"
 $TOP_CMD -b -n1 | head -n17 | tail -n15
 echo ""
