@@ -85,7 +85,7 @@ for VOLUME in "${SHARED_FOLDER_BASE[@]}"; do
         # Get list of shared folders in the volume
         SHARE_LIST=$($LS_CMD -1 "$VOLUME")
 
-        # Initialize subtotal for the volume
+        # Initialise subtotal for the volume
         SUBTOTAL=0
 
         # Print header for the volume
